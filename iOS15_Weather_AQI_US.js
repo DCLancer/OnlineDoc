@@ -83,7 +83,7 @@ function constructAirQuailityNode(aqicnData) {
 
 	airQualityNode.index = aqicnIndex
 	airQualityNode.categoryIndex = classifyAirQualityLevel(aqicnIndex)
-	airQualityNode.learnMoreURL = aqicnData.city.url + '/cn/m'
+	airQualityNode.learnMoreURL = 'https://aqicn.org/city/finland/inari/raja-jooseppi/cn/m';//aqicnData.city.url + '/cn/m'
 	airQualityNode.scale = AirQualityStandard.US
 	airQualityNode.source = aqicnData.city.name
 	airQualityNode.primaryPollutant = getPrimaryPollutant(aqicnData.dominentpol)
