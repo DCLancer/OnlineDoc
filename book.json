@@ -5,7 +5,7 @@
     "bookSourceName": "官术网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.changshengrui.com",
-    "bookUrlPattern": "http://www.changshengrui.com/\d+.html",
+    "bookUrlPattern": "http://www.changshengrui.com/\\d+.html",
     "customOrder": -1,
     "enabled": true,
     "enabledExplore": true,
