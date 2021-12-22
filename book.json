@@ -9,6 +9,11 @@ bookUrlPattern: "http://www.changshengrui.com/\d+.html",
 customOrder: -1,
 enabled: true,
 enabledExplore: true,
+exploreUrl: "都市言情::http://changshengrui.com/dushi.html
+玄幻魔法::http://changshengrui.com/xuanhuan.html
+武侠修真::http://changshengrui.com/wuxia.html
+游戏竞技::http://changshengrui.com//youxi.html
+穿越架空::http://changshengrui.com/xianyan.html,
 lastUpdateTime: 1634533269886,
 loginUrl: "",
 respondTime: 180000,
