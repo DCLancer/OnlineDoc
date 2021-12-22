@@ -10,6 +10,7 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "都市言情::http://changshengrui.com/dushi.html\n玄幻魔法::http://changshengrui.com/xuanhuan.html\n武侠修真::http://changshengrui.com/wuxia.html\n游戏竞技::http://changshengrui.com//youxi.html\n穿越架空::http://changshengrui.com/xianyan.html",
+    "header": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/96.0.4664.110",
     "lastUpdateTime": 1634533269886,
     "loginUrl": "",
     "respondTime": 180000,
@@ -27,14 +28,14 @@
       "replaceRegex": ""
     },
     "ruleExplore": {
-      "author": "class.author@text",
-      "bookList": "class.bookbox",
-      "bookUrl": "h4@a@href@js:\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.changshengrui.com/'+id+'.html'",
+      "author": "class.btm@text",
+      "bookList": "class.item",
+      "bookUrl": "dt@a@href@js:\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.changshengrui.com/'+id+'.html'",
       "coverUrl": "img@src",
-      "intro": "class.intro_line@text",
+      "intro": "dd@text",
       "kind": "",
-      "lastChapter": "class.update@a@text",
-      "name": "h4@a@text"
+      "lastChapter": "",
+      "name": "dt@a@text"
     },
     "ruleSearch": {
       "author": "class.result-game-item-info-tag.0@tag.span.1@text",
