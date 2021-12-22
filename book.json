@@ -1,5 +1,5 @@
 [
-{
+
 bookSourceComment: "",
 bookSourceGroup: "",
 bookSourceName: "官术网",
@@ -62,5 +62,5 @@ chapterUrl: "tag.a.0@href"
 },
 searchUrl: "http://www.changshengrui.com/search/?searchkey={{key}}",
 weight: 0
-}
+
 ]
