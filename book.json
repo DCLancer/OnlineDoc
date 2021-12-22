@@ -1,0 +1,61 @@
+[
+{
+bookSourceComment: "",
+bookSourceGroup: "",
+bookSourceName: "官术网",
+bookSourceType: 0,
+bookSourceUrl: "http://www.changshengrui.com",
+bookUrlPattern: "http://www.changshengrui.com/\d+.html",
+customOrder: -1,
+enabled: true,
+enabledExplore: true,
+lastUpdateTime: 1634533269886,
+loginUrl: "",
+respondTime: 180000,
+ruleBookInfo: {
+author: "id.info@tag.p.0@text##作者：",
+coverUrl: "id.fmimg@img@src",
+intro: "id.intro@text",
+kind: "class.con_top@tag.a.1@text&&
+id.info@tag.p.2@text&&
+id.info@tag.p.1@text##最后更新：|状 态：|,加入.*",
+lastChapter: "id.info@tag.p.3@a@text",
+name: "id.info@h1@text##\（.*|\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁"
+},
+ruleContent: {
+content: "id.content@textNodes##一秒记住.*免费阅读！|.*第.*章.*|官术网.*完结小说免费下载\)\)|\（wwW.pAosHU8.cOM_&&\）",
+imageStyle: "0",
+replaceRegex: ""
+},
+ruleExplore: {
+author: "class.author@text",
+bookList: "class.bookbox",
+bookUrl: "h4@a@href@js:
+var id = result.match(/(\d+)\/?$/)[1];
+var iid = parseInt(id/1000);
+'http://www.changshengrui.com/'+'/'+id+'.html'",
+coverUrl: "img@src",
+intro: "class.intro_line@text",
+kind: "",
+lastChapter: "class.update@a@text",
+name: "h4@a@text"
+},
+ruleSearch: {
+author: "class.result-game-item-info-tag.0@tag.span.1@text",
+bookList: "class.result-item",
+bookUrl: "class.result-item-title.0@tag.a.0@href",
+coverUrl: "tag.img.0@src",
+intro: "class.result-game-item-desc@text",
+kind: "class.result-game-item-info-tag.1@tag.span.1@text&&class.result-game-item-info-tag.2@tag.span.1@text",
+lastChapter: "class.result-game-item-info-tag.3@tag.a.0@text",
+name: "class.result-item-title.0@tag.a.0@text##\（.*|\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁"
+},
+ruleToc: {
+chapterList: "id.list@tag.dd",
+chapterName: "tag.a@text",
+chapterUrl: "tag.a.0@href"
+},
+searchUrl: "http://www.changshengrui.com/search/?searchkey={{key}}",
+weight: 0
+}
+]
